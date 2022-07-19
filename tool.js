@@ -6,6 +6,8 @@ exports.htmlDecode = (str) => {
 	// });
 	return str;
 };
+
+
 // 去除字符串中的空格函数、  第二个参数穿‘g’ 会去掉所有的中间的空格
 exports.trim = (str, is_global) => {
 	var result;
